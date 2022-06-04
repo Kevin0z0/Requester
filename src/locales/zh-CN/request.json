@@ -1,0 +1,22 @@
+{
+  "pretest": "预执行脚本",
+  "test": "测试脚本",
+  "settings": "设置",
+  "params": {
+  },
+  "body": {
+    "dragOrClick": "将文件拖到此处或点击此处添加文件",
+    "none": "无",
+    "noBody": "此请求没有请求体",
+    "raw": "文本",
+    "binary": "文件"
+  },
+  "auth": {
+    "noAuth": "此请求没有认证"
+  },
+  "key": "参数名",
+  "value": "参数值",
+  "description": "描述",
+  "send": "发送",
+  "sending": "发送中..."
+}

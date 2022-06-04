@@ -1,0 +1,19 @@
+{
+  "SSLVerification": "Enable SSL certificate verification",
+  "SSLVerificationIntro": "Verify SSL certificates when sending a request. Verification failures will result in the request being aborted.",
+  "FollowRedirects": "Automatically follow redirects",
+  "FollowRedirectsIntro": "Follow HTTP 3xx responses as redirects.",
+  "InheritContents": "Inherit contents when redirects",
+  "InheritContentsIntro":"Inherit request content when get 3xx response redirects.",
+  "followOriginal": "Follow original HTTP Method",
+  "followOriginalIntro": "Redirect with the original HTTP method instead of the default behavior of redirecting with GET.",
+  "removeReferer": "Remove referer header on redirect",
+  "removeRefererIntro": "Remove the referer header when a redirect happens.",
+  "encodeURL": "Encode URL automatically",
+  "encodeURLIntro": "Encode the URL's path, query parameters, and authentication fields.",
+  "disableCookie": "Disable cookie jar",
+  "disableCookieIntro": "Prevent cookies used in this request from being stored in the cookie jar. Existing cookies in the cookie jar will not be added as headers for this request.",
+  "maximumNumber": "Maximum number of redirects",
+  "maximumNumberIntro": "Set a cap on the maximum number of redirects to follow.",
+  "restore": "restore default"
+}

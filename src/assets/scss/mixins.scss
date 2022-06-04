@@ -1,0 +1,11 @@
+@mixin ellipsis($num){
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @if($num > 1){
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $num;
+    }@else{
+        white-space: nowrap;
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "body": {
+    "value": "响应体",
+    "content": "内容",
+    "preview": "预览"
+  },
+  "cookie": {
+    "noCookie": "本次请求没有返回Cookies",
+    "name": "名称",
+    "value": "值",
+    "domain": "域名",
+    "path": "路径",
+    "expire": "过期时间"
+  },
+  "headers": {
+    "name": "响应头",
+    "key": "参数名",
+    "value": "参数值",
+    "noHeader":  "本次请求没有返回Headers"
+  },
+  "test": {
+    "name": "测试结果",
+    "all": "全部",
+    "passed": "通过",
+    "failed": "失败",
+    "pass": "通过",
+    "fail": "失败"
+  },
+  "status": "状态码",
+  "time": "时间",
+  "size": "大小",
+  "requesting": "正在请求...",
+  "abort": "退出请求",
+  "error": "错误"
+}

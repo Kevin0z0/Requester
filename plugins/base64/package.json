@@ -1,0 +1,18 @@
+{
+  "name": "base64",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "info": {
+    "target": "TextMenu",
+    "introduce": "base64",
+    "menu": {
+      "label": "Base64",
+      "submenu": [
+        {"label": "Base64 Encode", "scope": "plugins.base64.stringToBase64"},
+        {"label": "Base64 Decode", "scope": "plugins.base64.base64ToString"}
+      ]
+    }
+  },
+  "main": "index.js"
+}

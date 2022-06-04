@@ -1,0 +1,42 @@
+{
+  "settings": "Settings",
+  "ms": "ms",
+  "general": {
+    "value": "General",
+    "request": {
+      "value": "Request",
+      "timeout": "Timeout",
+      "SSLVerification": "SSL certificate verification",
+      "noCache": "Send no-cache header",
+      "acceptEncoding": "Send accept-encoding header"
+    },
+    "response": {
+      "value": "Response",
+      "redirects": "Follow Redirects",
+      "redirectTimes": "Maximum number of redirects",
+      "maxResponseSize": "Max Response size"
+    },
+    "editor": {
+      "value": "Editor",
+      "minimap": "Mini Map",
+      "fontSize": "Font Size"
+    }
+  },
+  "proxies": {
+    "value": "Proxies",
+    "useSystemProxy": "Use the system proxy",
+    "useCustomProxy": "Use the custom proxy",
+    "proxy": "Proxy URL",
+    "authentication": "Authentication",
+    "username": "Username",
+    "password": "Password",
+    "bypass": "Bypass",
+    "bypassIntro": "bypass hosts when use proxy\ne.g: localhost, 127.0.0.1, *.requester.io"
+  },
+  "interface": {
+    "value": "Interface"
+  },
+  "about": {
+    "value": "About"
+  }
+}

@@ -1,0 +1,17 @@
+.auth__input .input-box {
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-white);
+}
+.auth__input .input-box .input-box__main {
+    padding: 0.6rem 1rem;
+    font-size: 1.3rem;
+}
+.auth__input__input-select {
+    height: 3rem;
+}
+.auth__input__input-select .input-select__text {
+    width: 100%;
+    text-align: left;
+    padding-left: 1rem;
+}

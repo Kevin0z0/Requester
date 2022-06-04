@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "General": {
+      "Request": {
+        "SSL certificate verification": {
+          "value": "0",
+          "description": null
+        },
+        "Timeout(ms)": {
+          "value": "0",
+          "description": null
+        },
+        "Send no cache header": {
+          "value": "1",
+          "description": null
+        }
+      },
+      "Response": {
+        "Follow redirects": {
+          "value": "1",
+          "description": null
+        },
+        "Max Response size(MB)": {
+          "value": "50",
+          "description": null
+        }
+      }
+    },
+    "Proxies": {
+      "Proxy": {
+        "Custom proxies": {
+          "value": {
+            "active": false,
+            "type": {
+              "HTTP": true,
+              "HTTPS": true
+            },
+            "server": {
+              "ip": "",
+              "port": ""
+            },
+            "auth": {
+              "value": false,
+              "username": "",
+              "password": ""
+            },
+            "bypass": ""
+          }
+        }
+      }
+    }
+  }
+}

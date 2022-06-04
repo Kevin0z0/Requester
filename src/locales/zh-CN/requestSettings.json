@@ -1,0 +1,19 @@
+{
+  "SSLVerification": "开启SSL证书验证",
+  "SSLVerificationIntro": "当发起请求是验证SSL证书，若验证失败则会退出请求",
+  "FollowRedirects": "自动重定向",
+  "FollowRedirectsIntro": "自动重定向HTTP 3xx 响应码",
+  "InheritContents": "在重定向时继承上一次发送的内容",
+  "InheritContentsIntro":"继承请求内容当HTTP响应码为3xx时",
+  "followOriginal": "在重定向时继承原始方法",
+  "followOriginalIntro": "在重定向时会用最初发送的方法代替默认的GET方法",
+  "removeReferer": "重定向时移除referer头",
+  "removeRefererIntro": "当发生重定向时自动移除referer头",
+  "encodeURL": "自动编码URL",
+  "encodeURLIntro": "编码URL的路径、参数和认证",
+  "disableCookie": "禁用Cookie Jar",
+  "disableCookieIntro": "防止在请求时把Cookie存到Cookie Jar，已存在Cookie Jar中的cookie不会被添加到请求中",
+  "maximumNumber": "最大重定向数",
+  "maximumNumberIntro": "设置最大重定向数上限",
+  "restore": "还原默认值"
+}

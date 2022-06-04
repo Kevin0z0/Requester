@@ -1,0 +1,31 @@
+{
+  "name": "plugins",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "plugins": {
+    "base64": {
+      "path": "base64/",
+      "target": "TextMenu",
+      "introduce": "base64",
+      "menu": {
+        "label": "Base64",
+        "submenu": [
+          {"label": "Base64 Encode", "scope": "plugins.base64.stringToBase64"},
+          {"label": "Base64 Decode", "scope": "plugins.base64.base64ToString"}
+        ]
+      }
+    },
+    "hash": {
+      "path": "hash/",
+      "target": "TextMenu",
+      "introduce": "hash",
+      "menu": {
+        "label": "Hash",
+        "submenu": [
+          {"label": "MD5", "scope": "plugins.hash.md5"}
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pretest": "Pre-request Script",
+  "test": "Test",
+  "settings": "Settings",
+  "params": {
+
+  },
+  "body": {
+    "dragOrClick": "Drag or click here to choose file",
+    "none": "none",
+    "noBody": "This Request has no body",
+    "raw": "raw",
+    "binary": "binary"
+  },
+  "auth": {
+    "noAuth": "This Request has no Authorization"
+  },
+  "key": "key",
+  "value": "value",
+  "description": "description",
+  "send": "Send",
+  "sending": "Sending..."
+}

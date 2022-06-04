@@ -1,0 +1,35 @@
+{
+  "body": {
+    "value": "Body",
+    "content": "Content",
+    "preview": "Preview"
+  },
+  "cookie": {
+    "noCookie": "This response has no cookies",
+    "name": "Name",
+    "value": "Value",
+    "domain": "Domain",
+    "path": "Path",
+    "expire": "Expires"
+  },
+  "headers": {
+    "name": "Headers",
+    "key": "Key",
+    "value": "Value",
+    "noHeader": "This response has no headers"
+  },
+  "test": {
+    "name": "Test Results",
+    "all": "All",
+    "passed": "Passed",
+    "failed": "Failed",
+    "pass": "PASS",
+    "fail": "FAIL"
+  },
+  "status": "Status",
+  "time": "Time",
+  "size": "Size",
+  "requesting": "Requesting data...",
+  "abort": "abort",
+  "error": "Error"
+}

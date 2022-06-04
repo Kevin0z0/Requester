@@ -1,0 +1,12 @@
+{
+  "welcome": "欢迎回来",
+  "nothingCreateNew": "这里啥也没有，赶快去新建一个请求吧",
+  "createNew": "新建请求",
+  "getStart": "开始使用Requester",
+  "importFile": "导入文件",
+  "importFileIntro": "从现有的文件中导入你的合集、环境或者配置文件。",
+  "import": "导入",
+  "document": "文档",
+  "learn": "学习如何使用Requester来完成复杂的工作",
+  "explore": "探索"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hash",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "info": {
+    "target": "TextMenu",
+    "introduce": "hash",
+    "menu": {
+      "label": "Hash",
+      "submenu": [
+        {"label": "md5", "scope": "plugins.hash.md5"}
+      ]
+    }
+  },
+  "main": "index.js"
+}

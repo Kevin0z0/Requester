@@ -1,0 +1,21 @@
+{
+  "encrypt": {
+    "publicKey": "-----BEGIN RSA PUBLIC KEY-----\nMIGJAoGBAL7Pgrlw+cfJfg1TpQEKeHQn87BbSGaDNhgE1G8pF32bI7Rixw9z+2lX\nyOnBDHaqrJI4Ht2yBFkJu6ghxEstUYwImekVdMLDzSuiv8qdEEOosDd7OTI7oBQL\nkLRVSuDVl+sGsuxkq5RadOWMEh+hlajDcSh0ZnP8bkwo3y7ZFcdnAgMBAAE=\n-----END RSA PUBLIC KEY-----\n",
+    "privateKey": "-----BEGIN RSA PRIVATE KEY-----\nMIICYQIBAAKBgQC+z4K5cPnHyX4NU6UBCnh0J/OwW0hmgzYYBNRvKRd9myO0YscP\nc/tpV8jpwQx2qqySOB7dsgRZCbuoIcRLLVGMCJnpFXTCw80ror/KnRBDqLA3ezky\nO6AUC5C0VUrg1ZfrBrLsZKuUWnTljBIfoZWow3EodGZz/G5MKN8u2RXHZwIDAQAB\nAoGAWGMbdPdGXSuS/m1eo8rL3VKcaXb/ZK0nI50pIozwWrjAo1CWUSwyq6uEX/OS\n6G1LHzhr49oQdYYyrUFmoYfPtU4WatsI7IiFuM2pBsgup5Bv2hFeIqwtHUlsJAlB\nI31IcL5ZzSrFDU79reKbXlw4Dt6U6YC9bXHznZzszmKqMYECRQDQ1OZOrdErosDb\n4NrHU4F1yJH9DeLrp8fr8n1RtfMt9UdxCjbYVC1ci6ujtWrbxeBF9b4nWBW38fYN\noH89IdR04qwoxwI9AOnomDbNuTolH96YpUwRtt7qjVdd6cyztuCR00XVznrfkMwP\ntdzQjCZ5jwyOECJQzjUdyuHj9y9UhYcMYQJFAMCfP/feuAtJyh6GXwZwbf9Yi+Ag\niOjZD70BJLrT24TOs6D+zOvpaRXt9tnAItqowF+HdmgQBahv1IdpPTQEGlXeJvJN\nAj0Arg/RHY8vlE5GDf5nm1jfTbkbXvVa42Kk5y59Gs3FLnippsDWI7DpakQxKDWb\nWf3pxWsbK8fZjNYH23xhAkRUHLTL59F2Udo0F5xyrvJiWqDHfRGIWazHmjUyRm1W\nUsodWF8/GgMKGlQnGBsNtyAjANGxtsUNVyAuv9HEG+bylgckdw==\n-----END RSA PRIVATE KEY-----\n"
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "password": "abcdefg",
+    "port": 6379
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "requester",
+    "password": "123123",
+    "database": "Requester"
+  },
+  "cookie_age": 31536000,
+  "max_login_device": 4,
+  "profile_path": "/static/profile"
+}

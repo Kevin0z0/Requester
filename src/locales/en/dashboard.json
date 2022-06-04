@@ -1,0 +1,12 @@
+{
+  "welcome": "Welcome",
+  "nothingCreateNew": "You have nothing here, let's create a new API",
+  "createNew": "Create New",
+  "getStart": "Get start with Requester",
+  "importFile": "Import File",
+  "importFileIntro": "Import your Collection、 Environment or configuration from exist file",
+  "import": "Import",
+  "document": "Document",
+  "learn": "Learn how to use Requester to do some complex work.",
+  "explore": "Explore"
+}

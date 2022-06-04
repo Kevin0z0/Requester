@@ -1,0 +1,42 @@
+{
+  "settings": "设置",
+  "ms": "毫秒(ms)",
+  "general": {
+    "value": "通用",
+    "request": {
+      "value": "请求包",
+      "timeout": "超时时间",
+      "SSLVerification": "SSL证书验证",
+      "noCache": "发送 no-cache 请求头",
+      "acceptEncoding": "发送 accept-encoding 请求头"
+    },
+    "response": {
+      "value": "响应包",
+      "redirects": "重定向自动跳转",
+      "redirectTimes": "重定向最大跳转次数",
+      "maxResponseSize": "响应包最大长度"
+    },
+    "editor": {
+      "value": "编辑器",
+      "minimap": "侧边栏预览图",
+      "fontSize": "字体大小"
+    }
+  },
+  "proxies": {
+    "value": "代理",
+    "useSystemProxy": "使用系统代理",
+    "useCustomProxy": "使用自定义代理",
+    "proxy": "代理 URL",
+    "authentication": "认证",
+    "username": "用户名",
+    "password": "密码",
+    "bypass": "不代理的地址",
+    "bypassIntro": "不代理的地址列表\n例: localhost, 127.0.0.1, *.requester.io"
+  },
+  "interface": {
+    "value": "界面"
+  },
+  "about": {
+    "value": "关于"
+  }
+}
