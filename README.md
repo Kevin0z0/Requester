@@ -1,38 +1,35 @@
 # Requester
 
+Requester是一个基于Electron类似Postman的工具，是我毕设的一个项目，断断续续做了大半年，自己封装了HTTP请求的模块，基本实现了HTTP/HTTPS请求的功能，Params、Body、Headers、Authorization、PreTest、Test、CookieJar等功能。目前界面还是不太完善，还在勉强能用的阶段。
 
+## 预览
 
-## 开发文档
+![主要功能](images/image-20220604154237893.png)
 
-### vue组件
+## ![环境](images/image-20220604154655568.png)
 
-#### stretch-box
+## 运行
 
-| 参数   | 值          | 注释                        |
-| ------ | ----------- | --------------------------- |
-| width  | 50% / 100px | 宽度初始值                  |
-| height | 50% / 100px | 高度初始值                  |
-| max    | 50% / 100px | 宽/高最大值                 |
-| min    | 50% / 100px | 宽/高最小值                 |
-| small  | 50% / 100px | 最小化宽/高                 |
-| target | 0 / 1       | (top/left) / (bottom/right) |
+目前软件仅支持在Windows端运行
 
-```html
-<stretch-box width="250px"
-             min="150px"
-             max="300px"
-             small="80px">
-    <template v-slot:left>
-        <div class="wrap"></div>
-    </template>
-    <template v-slot:right>
-        <div class="test"></div>
-    </template>
-</stretch-box>
+```bash
+npm install 
+# 运行开发版
+npm run dev
+
+# 打包
+npm run build
 ```
 
+`npm install`时发生错误可以尝试使用`npm install --force`
+
+运行时发生错误可以运行`.\install.ps1`安装对应版本的electron。
+
+## 食用手册
+
+与Postman基本一致，日后再写
+
+
 ## TODO
-> Dashboard
-> 
 > TODO List
 
