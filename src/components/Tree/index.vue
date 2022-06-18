@@ -57,11 +57,6 @@ export default {
            onFolderClick: this.onFolderClick
        }
     },
-    data(){
-        return{
-
-        }
-    },
     methods:{
         onItemClick(id){
             this.$emit('onItemClick', id)

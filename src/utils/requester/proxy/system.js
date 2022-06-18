@@ -18,7 +18,7 @@ function win(done, failed){
 					}
 				}
 			})
-			if(!value['ProxyEnable'] === '0x1') return done(null)
+			if(value['ProxyEnable'] === '0x0') return done(null)
 			value['ProxyOverride'] = value['ProxyOverride']
 				.replace(/\./g,"\\.")
 				.replace(/\*/g,".*")

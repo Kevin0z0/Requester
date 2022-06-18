@@ -1,10 +1,10 @@
 {
-  "name": "requester",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "vue:serve": "vue-cli-service serve",
-    "vue:build": "vue-cli-service electron:build",
+    "vue:build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service electron:build",
     "dev": "vue-cli-service electron:serve",
@@ -17,7 +17,7 @@
     "animejs": "^3.2.1",
     "better-sqlite3": "^7.4.5",
     "combined-stream": "^1.0.8",
-    "core-js": "^3.18.0",
+    "core-js": "^3.8.3",
     "form-data": "^4.0.0",
     "highlight.js": "^11.4.0",
     "js-beautify": "^1.14.0",
@@ -30,27 +30,27 @@
     "shortid": "^2.2.16",
     "uuid": "^8.3.2",
     "vm2": "^3.9.5",
-    "vue": "^3.0.0",
-    "vue-i18n": "^9.2.0-beta.22",
-    "vue-router": "^4.0.0",
+    "vue": "^3.2.13",
+    "vue-i18n": "^9.1.10",
+    "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.2.22",
-    "babel-eslint": "^10.1.0",
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
     "electron": "^13.4.0",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.18.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "node-polyfill-webpack-plugin": "^1.1.4",
     "sass": "^1.44.0",
     "sass-loader": "^10",
-    "vue-cli-plugin-electron-builder": "~2.1.1",
-    "worker-loader": "^3.0.8"
+    "vue-cli-plugin-electron-builder": "~2.1.1"
   },
   "eslintConfig": {
     "root": true,
@@ -62,16 +62,18 @@
       "eslint:recommended"
     ],
     "parserOptions": {
-      "parser": "babel-eslint"
+      "parser": "@babel/eslint-parser"
     },
     "rules": {
       "no-undef": 0,
-      "no-debugger": 0
+      "no-debugger": 0,
+      "vue/multi-word-component-names": 0
     }
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead"
+    "not dead",
+    "not ie 11"
   ]
 }
