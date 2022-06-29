@@ -495,4 +495,4 @@ if (require.main === module) {
 	console.log(requester.params.get("abc"))
 }
 
-export default () => new Requester()
+export default () => {return new Requester()}

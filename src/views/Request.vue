@@ -468,21 +468,20 @@ export default {
             response: v,
             time: time
           })
+          this.onReceiveResponse()
           if (test?.error) {
             this.result.setError("Test Script", test.error)
-            this.onReceiveResponse()
             return
           }
           this.result.setContent(v)
         })
       }).catch(v => {
+        this.onReceiveResponse()
         if (v.error) {
           this.result.setError("Request", v.error)
           return
         }
         v && this.result.setError("Request", v)
-      }).finally(() => {
-        this.onReceiveResponse()
       })
     },
     onTopHeightResize({height, mainHeight}) {
@@ -496,6 +495,7 @@ export default {
     onAbort() {
       this.$refs.preTest.abort()
       this.req && this.req.abort()
+      this.$refs.test.abort()
     },
     getSize(data) {
       if (!data.raw || !data.raw.rawHeaders) return {total: 0, detail: null}

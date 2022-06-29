@@ -3,6 +3,6 @@ channels==3.0.4
 channels-redis==3.3.1
 asgiref~=3.5.0
 mysqlclient~=2.1.0
-PyJWT~=2.3.0
+PyJWT~=2.4.0
 rsa~=4.0
 PyMySQL~=0.10.1
